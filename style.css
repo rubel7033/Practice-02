@@ -1,0 +1,200 @@
+
+
+.bannerSection{
+    background-image: url(./Img/banner-1848731_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 700px;
+}
+
+.bannerText h1{
+    margin-top: 40px;
+    color: white;
+    font-size: 60px;
+    padding: 30px 1px;
+    background: linear-gradient(90deg, #AE67FA 1.84%, #F49867 102.67%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}    
+
+.bannerText h4{
+    color: white;
+    font-size: 30px;
+
+}
+
+.imgslink{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 20px 0;
+
+}
+
+.imgslink h5{
+    color: white;
+    margin-top: 37px;
+}
+
+
+.storySection{
+    background-color: #abcfd7 ;
+    
+    
+}
+.story1{
+    margin-right: 0;
+    text-align: center;
+    margin-top: 120px;
+    padding: 50px 0;
+    position: relative;
+    z-index: 1;
+    
+   
+
+}
+.story1::after {
+    content: "";
+    top: -45px;
+    left: 95px;
+    background-color: rgb(250, 247, 247);
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    z-index: -1;
+    border-radius: 50%;
+    background: linear-gradient(90deg, #AE67FA 1.84%, #F49867 102.67%);
+    -webkit-text-fill-color: transparent;
+    
+}
+
+
+
+
+.story1::before {
+    content: "";
+    top: 240px;
+    right: -322px;
+    width: 527px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    background: linear-gradient(90deg, #AE67FA 1.84%, #F49867 102.67%);
+    -webkit-text-fill-color: transparent;
+}
+
+
+.story1 img {
+    width: 892px;
+    height: 644px;
+    margin: 0px auto 0 calc(((100% - 1543px) / 2) + 118px);
+}
+
+.storySection2{
+   
+}
+
+.storyText1{
+    padding: 30px 0;
+}
+
+.storyText1 h1{
+    font-size: 50px;
+    background: linear-gradient(90deg, #AE67FA 1.84%, #F49867 102.67%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}    
+
+.storyText1 p{
+    font-size: 20px;
+}
+
+.storyText2{
+    padding: 30px 0;
+}
+
+.storyText2 p{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+
+/* GroupSection */
+
+.groupSection{
+    background-color: #8cbcc6;
+    padding: 40px 0;
+}
+.OurSection{
+    padding: 70px 0;
+}
+
+.OurSection h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.teamSection{
+    text-align: center;
+}
+
+
+
+.teamImg img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.teamText h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 18px;
+    background: linear-gradient(90deg, #AE67FA 1.84%, #F49867 102.67%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.teamText h4{
+    color: #3d7409;
+    margin: 17px;
+}
+.teamText p{
+    font-size: 17px;
+}
+.logo{
+    padding: 10px;
+}
+
+.logo a {
+    padding: 0px 7px;
+    color: black;
+    font-size: 27px;
+}
+
+
+/* footer*/
+.footer{
+    background-color: #0a2930;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer p{
+    margin-top: 20px;
+    color: white;
+}
+.logo2{
+    padding: 10px;
+}
+.logo2 a{
+    padding: 0px 7px;
+    color: rgb(236, 227, 227);
+    font-size: 27px;
+}
